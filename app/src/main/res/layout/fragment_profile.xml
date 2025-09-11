@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenFragment">
+    tools:context=".ui.WomenFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Men Fragment"
-        android:textSize="20sp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="Profile Fragment"
+        android:textSize="20sp" />
 
 </FrameLayout>

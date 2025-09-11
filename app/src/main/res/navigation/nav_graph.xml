@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.riteshapps.driftline.HomeFragment"
+        android:name="com.riteshapps.driftline.ui.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/womenFragment"
-        android:name="com.riteshapps.driftline.WomenFragment"
-        android:label="fragment_women"
-        tools:layout="@layout/fragment_women" />
-    <fragment
         android:id="@+id/menFragment"
-        android:name="com.riteshapps.driftline.MenFragment"
+        android:name="com.riteshapps.driftline.ui.SearchFragment"
         android:label="fragment_men"
-        tools:layout="@layout/fragment_men" />
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.riteshapps.driftline.ui.WomenFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
