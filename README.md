@@ -1,6 +1,6 @@
 # 🛍️ DriftLine
 
-**DriftLine** is a modern Android e-commerce style application built using **Kotlin** and **Jetpack Compose**.  
+**DriftLine** is a modern Android e-commerce style application built using **Kotlin**
 The app focuses on clean UI, smooth navigation, and core shopping features like browsing products, searching items, and managing user profiles.
 
 ---
@@ -11,7 +11,7 @@ The app focuses on clean UI, smooth navigation, and core shopping features like 
 - 🔍 **Search Products** – Search items by name
 - 👤 **User Profile** – View profile details with settings and logout
 - 📱 **Bottom Navigation** – Seamless navigation between screens
-- 🎨 **Modern UI** built with Jetpack Compose
+- 🎨 **Modern UI** built with Kotlin
 
 ---
 
@@ -26,7 +26,7 @@ The app focuses on clean UI, smooth navigation, and core shopping features like 
 ## 🛠️ Tech Stack
 
 - **Language**: Kotlin  
-- **UI Toolkit**: Jetpack Compose  
+- **UI Toolkit**: Kotlin
 - **Architecture**: MVVM  
 - **State Management**: ViewModel  
 - **Navigation**: Jetpack Navigation Component  
@@ -56,7 +56,7 @@ The app follows **MVVM architecture**, ensuring:
 - Easy UI state management  
 
 **Layers:**
-- **UI Layer** – Jetpack Compose screens  
+- **UI Layer** – Kotlin layout screens  
 - **ViewModel** – Handles UI state and business logic  
 - **Data Layer** – Manages product data  
 
